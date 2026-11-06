@@ -30,3 +30,6 @@ coverage/
 # Temporary files
 tmp/
 temp/
+
+# Local MCP config (contains credentials) — keep out of git
+.mcp.json

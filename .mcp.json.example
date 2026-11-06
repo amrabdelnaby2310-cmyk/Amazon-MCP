@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "amazon-seller": {
+      "command": "C:/path/to/node.exe",
+      "args": ["C:/path/to/amazon-seller-mcp/build/index.js"],
+      "env": {
+        "LWA_CLIENT_ID": "amzn1.application-oa2-client.xxxxx",
+        "LWA_CLIENT_SECRET": "your_lwa_client_secret",
+        "LWA_REFRESH_TOKEN": "Atzr|your_refresh_token",
+        "SELLER_ID": "your_seller_id",
+        "MARKETPLACE_ID": "ATVPDKIKX0DER",
+        "SP_API_ENDPOINT": "https://sellingpartnerapi-na.amazon.com"
+      }
+    }
+  }
+}
